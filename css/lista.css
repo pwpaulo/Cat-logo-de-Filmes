@@ -1,0 +1,297 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../img/bg-perfis.png);
+    background-size: cover; 
+    background-position: center;  
+    padding: 0;
+  }
+
+
+
+  #logo-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif; 
+  }
+
+  #logo-btn span {
+    color: white;
+    font-weight: bold;
+    font-size: 36px; 
+  }
+
+  #logo-btn span.second {
+    color: #001f3f; 
+  }
+  
+
+  .video-block {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    background: url(/img/1.png);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease; 
+    cursor: pointer;
+  }
+
+  .video-block:hover {
+    transform: scale(1.1); 
+  }
+
+  .video-block1 {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    background: url(/img/2.png);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease; 
+    cursor: pointer;
+  }
+
+  .video-block1:hover {
+    transform: scale(1.1);
+  }
+
+  .video-block2 {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    background: url(/img/3.png);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  .video-block2:hover {
+    transform: scale(1.1); 
+  }
+
+  .video-block3 {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    background: url(/img/4.png);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease; 
+    cursor: pointer;
+  }
+
+  .video-block3:hover {
+    transform: scale(1.1); 
+  }
+
+  .video-block4 {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    background: url(/img/5.png);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease; 
+    cursor: pointer;
+  }
+
+  .video-block4:hover {
+    transform: scale(1.1); 
+  }
+
+  .video-block4 {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    background: url(/img/5.png);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease; 
+    cursor: pointer;
+  }
+
+  .video-block4:hover {
+    transform: scale(1.1); 
+  }
+
+  .video-block5 {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    background: url(/img/6.png);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease; 
+    cursor: pointer;
+  }
+
+  .video-block5:hover {
+    transform: scale(1.1); 
+  }
+
+  .catalog-label {
+    position: absolute;
+    top: 25%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+
+  footer {
+    background-color: rgba(169, 169, 169, 0.8); 
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    margin-left: 0; 
+  }
+
+  #botao-continuar {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+
+  }
+
+  #botao-continuar:hover {
+    background-color: #0056b3; 
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  }
+
+  .jogos-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.jogos-button:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+
+.jogos-button:hover {
+    transform: scale(1.1);
+}
+
+
+@keyframes rainbow {
+    0% {
+        background-color: red;
+    }
+    16% {
+        background-color: orange;
+    }
+    33% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: green;
+    }
+    66% {
+        background-color: blue;
+    }
+    83% {
+        background-color: indigo;
+    }
+    100% {
+        background-color: violet;
+    }
+}
+
+.jogos-button:hover {
+    animation: rainbow 2s infinite;
+}
+
+.avaliar-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.avaliar-btn:hover {
+  background-color: red;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#quizButton {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#quizButton:hover {
+  background: linear-gradient(45deg, #ff0000, #ff9900, #33cc33, #3399ff, #9900cc, #ff0000);
+  background-size: 600% 600%;
+  animation: rainbowEffect 4s infinite;
+  transform: scale(1.1);
+}
+
+@keyframes rainbowEffect {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

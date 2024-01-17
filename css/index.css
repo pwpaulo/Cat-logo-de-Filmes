@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(../img/bg-perfis.png);
+  background-size: cover; 
+  background-position: center;  
+  padding: 0;
+}
+
+.round-button {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.3s ease; 
+    cursor: pointer;
+  }
+
+  .round-button:hover {
+    transform: scale(1.1); 
+  }
+
+  .round-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .texto-centralizado {
+    text-align: center;
+    font-family: 'sua-fonte-preferida', sans-serif; 
+    font-size: 24px;
+    color: white; 
+    position: absolute;
+    top: 30%; 
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+
+  #logo-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif; 
+  }
+
+  #logo-btn span {
+    color: white;
+    font-weight: bold;
+    font-size: 36px; 
+  }
+
+  #logo-btn span.second {
+    color: #001f3f; 
+  }
+  
+  .admin-text {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    position: absolute;
+    top: 65%; 
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: color 0.5s ease, text-shadow 0.5s ease; 
+  }
+
+  .admin-text:hover {
+    color: #00bcd4; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+
+  footer {
+    background-color: rgba(169, 169, 169, 0.8); 
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

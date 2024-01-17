@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gênio Quiz</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: url('../genio-quiz/fundo.png'); 
+            background-size: cover;
+            background-position: center;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: black; 
+        }
+
+        h1 {
+            font-size: 3em;
+            color: black; 
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1.5em;
+            cursor: pointer;
+            background-color: #ffffff; 
+            color: #000000; 
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            box-shadow: 0px 0px 10px 0px #000000; 
+        }
+
+        #logo-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    background: none;
+    font-family: 'Montserrat', sans-serif; 
+  }
+
+  #logo-btn span {
+    color: black;
+    font-weight: bold;
+    font-size: 36px; 
+  }
+
+  #logo-btn span.second {
+    color: #001f3f; 
+  }
+    </style>
+</head>
+<button id="logo-btn" onclick="window.location.href='bemvindo.html'">
+    <span>CINE</span><span class="second">CLOUD</span>
+  </button>
+<body>
+
+    <h1>Gênio Quiz</h1>
+    <button onclick="jogar()">Jogar</button>
+
+    <script>
+        function jogar() {
+            window.location.href = 'pum.html';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Fail Screen</title>
+</head>
+<body>
+    <button id="logo-btn" onclick="window.location.href='bemvindo.html'">
+        <span>CINE</span><span class="second">CLOUD</span>
+      </button>
+  <div class="fail-screen">
+    <p class="fail-message">Fail</p>
+    <button class="redirect-button" onclick="redirectToAnotherScreen()">Voltar</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+<style>
+    body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive;
+  background-image: url('../genio-quiz/fundo.png'); 
+  background-size: cover;
+  background-position: center;
+  color: red;
+}
+
+.fail-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.fail-message {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.redirect-button {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  background-color: #fff;
+  color: red;
+  border: 2px solid red;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.redirect-button:hover {
+  background-color: red;
+  color: #fff;
+}
+
+#logo-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: 'Montserrat', sans-serif; 
+  }
+
+  #logo-btn span {
+    color: black;
+    font-weight: bold;
+    font-size: 36px; 
+  }
+
+  #logo-btn span.second {
+    color: #001f3f; 
+  }
+
+</style>
+
+<script>
+    function redirectToAnotherScreen() {
+  window.location.href = 'menu.html'; /* Substitua pelo caminho da sua outra tela */
+}
+
+</script>
+</body>
+</html>
